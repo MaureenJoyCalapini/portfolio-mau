@@ -75,6 +75,7 @@
 }
 
 
+
 /*project*/
 .project{
 	min-height:100vh;
@@ -101,7 +102,7 @@
 	display: flex;
 	min-height:100vh;
 	background-color:#e0a2a2;
-	
+	cursor:pointer;
 }
 .all .container{
 	position:relative;
@@ -193,12 +194,11 @@
 }
 
 
-
 /*about*/
 .about{
 	min-height:100vh;
 	background-color:#f3b6b6;
-	padding:300px;
+	padding:250px;
 }
 .box h1{
 	font-weight:bold;
@@ -213,10 +213,33 @@
 	font-weight:100;
 	line-height:25px
 }
-
-@media (max-width: 991px){
-	.navbar{
-		margin:40px 250px;
-		flex-direction:column;
-	}
+.download{
+	padding:10px;
+	margin:0;
+	box-sizing:border-box;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
 }
+.download a{
+	display:block;
+	background:#9ac8eb;
+	color:#fff;
+	padding:15px;
+	cursor:pointer;
+	text-decoration:none;
+	width:200px;
+	text-align:center;
+	border-radius:10px;
+	font-size:20px;
+	
+}
+.download a:hover{
+	background:#5784ba;
+}
+.download p{
+	color:#555;
+	padding:10px;
+}
+
