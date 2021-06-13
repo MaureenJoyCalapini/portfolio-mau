@@ -35,8 +35,7 @@
 <section class="project" id="project">
 	<div class="file">
 	<h1>My Projects</h1>
-	<p>Simple Youtube App	(Currently Working)<br>Simple Business Web App<br>Grocery Management System
-</p>
+	<p>Simple Youtube App	(Currently Working)<br>Simple Business Web App<br>Grocery Management System</p>
    </div>
 </section>
 
@@ -93,6 +92,17 @@
 	My dream is to become a successful and professional Web Developer.
 	I'm still learning in the path of Web Development and hope that you guide and educate me to be successful.</p>
    </div>
+   <div class="download">
+   <a href="Calapini, Maureen Joy.pdf" download>
+   Download
+   </a>
+   <p>Download CV</p>
+   <a href="Resume of Maureen Joy Calapini.pdf" download>
+   Download
+   </a>
+   <p>Download Resume</p>
+   </div>
+   
 </section>
 
 
